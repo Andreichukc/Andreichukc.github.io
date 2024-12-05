@@ -1,0 +1,33 @@
+.parkinsans {
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.blue-background {
+    background-color: #0047AB;
+}
+
+.lightBlue-background {
+    background-color: #ADD8E6;
+}
+
+.fade-black {
+    background-color: black;
+    opacity: 75%;
+    
+}
+
+.teamWidth{
+    width: 5rem;
+}
+
+.typeCard{
+    max-width: 18rem;
+}
+
+.favoriteImg{
+    max-width: 15rem;
+}

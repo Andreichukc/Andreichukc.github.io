@@ -1,1 +1,154 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pokemon Experience</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans&display=swap" rel="stylesheet">
+</head>
+<body class="parkinsans">
+
+    <nav class="navbar navbar-expand-lg blue-background" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Pokemon Experience</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="teams.html">Teams</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="favorites.html">Favorites</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row justify-content-center text-center mt-5">
+        <div class="col-6 lightBlue-background rounded p-3">
+            <h1>Welcome to my pokemon experience.</h1>
+            <p>My first pokemon game was Pokemon Y but I feel my first true game getting into it was the gen 3 remakes Omega ruby and Alpha Sapphire ever since then I have played every new game and went back to play most of the games I missed.</p>
+        </div>
+    </div>
+
+    <div class="row justify-content-center text-center mt-3 blue-background pt-3 pb-3">
+        <div class="col-6">
+            <h3 class="text-light mb-2">Games I have played</h3>
+            <div id="carouselExampleCaptions" class="carousel slide rounded">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/pokemon-xy.jpg" class="d-block w-100" alt="X and Y">
+                        <div class="carousel-caption d-none d-md-block fade-black rounded">
+                            <h5>X and Y</h5>
+                            <p>My first game</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/ORAS.jpg" class="d-block w-100" alt="ORAS">
+                        <div class="carousel-caption d-none d-md-block fade-black rounded">
+                            <h5>Omega Ruby and Alpha Sapphire</h5>
+                            <p>The first game that i spent too much time playing</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Sun_and_Moon.jpg" class="d-block w-100" alt="Sun and Moon">
+                        <div class="carousel-caption d-none d-md-block fade-black rounded">
+                            <h5>Sun and Moon</h5>
+                            <p>Played through these games the most due to my parents gifting me both copys</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Black_white.jpeg" class="d-block w-100" alt="Black and White">
+                        <div class="carousel-caption d-none d-md-block fade-black rounded">
+                            <h5>Black and White</h5>
+                            <p>Love these games only plaed the sequals though</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/pokemon-sword-shield-wallpaper.jpg" class="d-block w-100" alt="Sword and Shield">
+                        <div class="carousel-caption d-none d-md-block fade-black rounded">
+                            <h5>Sword and Shield</h5>
+                            <p>This certainly is a game</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Full_Legends.avif" class="d-block w-100" alt="Legends Arceus">
+                        <div class="carousel-caption d-none d-md-block fade-black rounded">
+                            <h5>Legends Arceus</h5>
+                            <p>Great game</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/FRLG.jpg" class="d-block w-100" alt="red and green">
+                        <div class="carousel-caption d-none d-md-block fade-black rounded">
+                            <h5>Fire Red and Leaf Green</h5>
+                            <p>Only gen 1 game I have played</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Pokemon-Diamond-and-Pearl-covers.avif" class="d-block w-100" alt="Diamond and pearl">
+                        <div class="carousel-caption d-none d-md-block fade-black rounded">
+                            <h5>Diamond and Pearl</h5>
+                            <p>Also including BDSP</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/scarlett-violet.webp" class="d-block w-100" alt="Scarlet and Violet">
+                        <div class="carousel-caption d-none d-md-block fade-black rounded">
+                            <h5>Scralet and Violet</h5>
+                            <p>The last game i have played</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center text-center mt-5 mb-5">
+        <div class="col-4 light lightBlue-background rounded p-3">
+            <h3>My Favorite Games</h3>
+            <p>a List of my top 5 favorite games</p>
+            <ol>
+                <li>Legends Arceus</li>
+                <li>Sun and Moon/Ultra Sun and Moon</li>
+                <li>Omega Ruby and Alpha Sapphire</li>
+                <li>Black and White 2</li>
+                <li>X and Y</li>
+            </ol>
+
+        </div>
+    </div>
+
+	
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
